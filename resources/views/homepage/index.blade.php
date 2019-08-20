@@ -40,7 +40,7 @@
                             <div class="profile-image">
 
                                 {{--<img src="./images/profile-image.jpg" alt="">--}}
-                                <img src="{{asset('images/profile-image.jpg')}}" alt="">
+                                <img src="{{asset('images/profile/jack2.jpg')}}" alt="">
 
                             </div><!-- profile-image -->
                             <div class="personal-details">
