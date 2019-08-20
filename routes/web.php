@@ -22,3 +22,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/resume',function(){
     return view('homepage.index');
 });
+Route::get('/resume/download_file','FileDownloadController@downloadResume')->name('resume.download');

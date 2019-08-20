@@ -9,26 +9,20 @@
 
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-xl-5 col-lg-8">
+                    <div class="col">
+                            <a href="/"><i class="far fa-arrow-alt-circle-left fa-3x"></i></a>
 
-                        <ul class="contact-info">
-                            <li>
-                                <i class="business-icon-telephone-handle"></i>
-                                714-325-2184 <br>
-                                {{--<span>mon-fri, 08.am - 17.pm</span>--}}
-                            </li>
-                            <li>
-                                <i class="business-icon-speech-bubble-with-text-lines"></i>
-                                <a href="mailto:info@vertiqalteam.com">dlfjj123@gmail.com</a> <br>
-                                {{--<span></span>--}}
-                            </li>
-                        </ul>
-
+                        {{--<ul class="contact-info">--}}
+                            {{--<li>--}}
+                                {{--<a href="/"><i class="business-icon-arrow-pointing-to-left"></i></a>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<a class="btn btn-style-1 waves mb-0" href="{{ route('resume.download') }}">Download CV</a>--}}
+                            {{--</li>--}}
+                        {{--</ul>--}}
                     </div><!-- col -->
-                    <div class="col-xl-7 col-lg-4 mt-3 mt-lg-0 text-md-center text-lg-right">
-
-                        <a class="btn btn-style-1 waves mb-0" href="#">Download CV</a>
-
+                    <div class="col text-right">
+                        <a class="btn btn-style-1 waves mb-0" href="{{ route('resume.download') }}">Download CV</a>
                     </div><!-- col -->
                 </div><!-- row -->
             </div><!-- container-fluid -->
@@ -103,46 +97,46 @@
                         </p>
 
                         {{--<div class="row mt-5">--}}
-                            {{--<div class="col-sm-6">--}}
+                        {{--<div class="col-sm-6">--}}
 
-                                {{--<div class="counter">--}}
+                        {{--<div class="counter">--}}
 
-                                    {{--<div class="counter-value" data-value="3"></div>--}}
-                                    {{--<div class="counter-details">Coder <br> degrees</div>--}}
+                        {{--<div class="counter-value" data-value="3"></div>--}}
+                        {{--<div class="counter-details">Coder <br> degrees</div>--}}
 
-                                {{--</div><!--counter -->--}}
+                        {{--</div><!--counter -->--}}
 
-                            {{--</div><!-- col -->--}}
-                            {{--<div class="col-sm-6">--}}
+                        {{--</div><!-- col -->--}}
+                        {{--<div class="col-sm-6">--}}
 
-                                {{--<div class="counter">--}}
+                        {{--<div class="counter">--}}
 
-                                    {{--<div class="counter-value" data-value="25"></div>--}}
-                                    {{--<div class="counter-details">Projects <br> completed</div>--}}
+                        {{--<div class="counter-value" data-value="25"></div>--}}
+                        {{--<div class="counter-details">Projects <br> completed</div>--}}
 
-                                {{--</div><!--counter -->--}}
+                        {{--</div><!--counter -->--}}
 
-                            {{--</div><!-- col -->--}}
-                            {{--<div class="col-sm-6">--}}
+                        {{--</div><!-- col -->--}}
+                        {{--<div class="col-sm-6">--}}
 
-                                {{--<div class="counter">--}}
+                        {{--<div class="counter">--}}
 
-                                    {{--<div class="counter-value" data-value="311"></div>--}}
-                                    {{--<div class="counter-details">Satisfied <br> clients</div>--}}
+                        {{--<div class="counter-value" data-value="311"></div>--}}
+                        {{--<div class="counter-details">Satisfied <br> clients</div>--}}
 
-                                {{--</div><!--counter -->--}}
+                        {{--</div><!--counter -->--}}
 
-                            {{--</div><!-- col -->--}}
-                            {{--<div class="col-sm-6">--}}
+                        {{--</div><!-- col -->--}}
+                        {{--<div class="col-sm-6">--}}
 
-                                {{--<div class="counter">--}}
+                        {{--<div class="counter">--}}
 
-                                    {{--<div class="counter-value" data-value="2"></div>--}}
-                                    {{--<div class="counter-details">Design <br> courses</div>--}}
+                        {{--<div class="counter-value" data-value="2"></div>--}}
+                        {{--<div class="counter-details">Design <br> courses</div>--}}
 
-                                {{--</div><!--counter -->--}}
+                        {{--</div><!--counter -->--}}
 
-                            {{--</div><!-- col -->--}}
+                        {{--</div><!-- col -->--}}
                         {{--</div>--}}
 
                         <div class="headline mt-5">
@@ -309,8 +303,8 @@
                                 </div><!-- skills-item-title -->
 
                                 {{--<p>Diam sit amet massa tempor porta semper eget ex. Mauris ornare lacus in efficitur volutpat. Vestibulum--}}
-                                    {{--ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam congue id odio a--}}
-                                    {{--maximus.</p>--}}
+                                {{--ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam congue id odio a--}}
+                                {{--maximus.</p>--}}
 
                                 <br>
 
@@ -353,6 +347,18 @@
                                 <div class="progress-bar-container">
 
                                     <div class="progress">
+                                        <div class="progress-bar" data-width="60">
+                                            <span>60%</span>
+                                        </div><!-- progress-bar -->
+                                    </div><!-- progress -->
+
+                                    <div class="progress-bar-title">Apache Hadoop</div>
+
+                                </div><!-- progress-bar-container -->
+
+                                <div class="progress-bar-container">
+
+                                    <div class="progress">
                                         <div class="progress-bar" data-width="86">
                                             <span>86%</span>
                                         </div><!-- progress-bar -->
@@ -361,6 +367,7 @@
                                     <div class="progress-bar-title">Digital Ocean</div>
 
                                 </div><!-- progress-bar-container -->
+
 
                                 <div class="progress-bar-container">
 
@@ -497,7 +504,7 @@
 
                                     <h4>Bachelor of Business Administration, Management Information System</h4>
                                     <h5>Baylor University</h5>
-                                    <h6>Graduated in May 2017 (2 years)</h6>
+                                    <h6>Graduated in May 2017 (4 years)</h6>
 
                                 </div><!-- education-title -->
 
