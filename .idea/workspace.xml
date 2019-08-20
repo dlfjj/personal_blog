@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e59353e3-1dde-40ca-ac45-48fa61820f8b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/homepage/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="583">
+              <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
               <folding>
                 <element signature="e#5887#6045#0#HTML" />
                 <element signature="e#13120#13279#0#HTML" />
@@ -55,24 +57,6 @@
                 <element signature="e#17731#18987#0#HTML" />
                 <element signature="e#29211#29585#0#HTML" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/storage/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -283,26 +267,14 @@
               <item name="personal_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal_blog" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal_blog" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal_blog" type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +317,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="appser&#9;null&#9;null&#10;database.ph&#9;FILE&#9;file:///Users/jiajiefan/Desktop/gcloud_sdk/resume_website/personal_blog/config/database.php&#10;datepicker&#9;FILE&#9;file:///Users/jiajiefan/Desktop/gcloud_sdk/resume_website/personal_blog/node_modules/jquery-ui/ui/i18n/datepicker-af.js&#10;app.css&#9;FILE&#9;file:///Users/jiajiefan/Desktop/gcloud_sdk/resume_website/personal_blog/public/css/app.css&#10;registercont&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="filesystem&#9;null&#9;null&#10;appser&#9;null&#9;null&#10;database.ph&#9;FILE&#9;file:///Users/jiajiefan/Desktop/gcloud_sdk/resume_website/personal_blog/config/database.php&#10;datepicker&#9;FILE&#9;file:///Users/jiajiefan/Desktop/gcloud_sdk/resume_website/personal_blog/node_modules/jquery-ui/ui/i18n/datepicker-af.js&#10;app.css&#9;FILE&#9;file:///Users/jiajiefan/Desktop/gcloud_sdk/resume_website/personal_blog/public/css/app.css&#10;registercont&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -387,12 +359,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565910628030</updated>
-      <workItem from="1565910629231" duration="37511000" />
+      <workItem from="1565910629231" duration="38319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37511000" />
+    <option name="totallyTimeSpent" value="38319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1202" y="23" width="1320" height="1361" extended-state="0" />
@@ -671,20 +643,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/profile/jack.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/homepage/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#5887#6045#0#HTML" />
-            <element signature="e#13120#13279#0#HTML" />
-            <element signature="e#14740#15948#0#HTML" />
-            <element signature="e#17731#18987#0#HTML" />
-            <element signature="e#29211#29585#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/portfolio/image-1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -706,6 +664,20 @@
     <entry file="file://$PROJECT_DIR$/public/images/pattern.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6987">
+          <caret line="565" column="18" lean-forward="true" selection-start-line="565" selection-start-column="18" selection-end-line="565" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/storage/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -713,10 +685,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/resources/views/homepage/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="583">
+          <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+          <folding>
+            <element signature="e#5887#6045#0#HTML" />
+            <element signature="e#13120#13279#0#HTML" />
+            <element signature="e#14740#15948#0#HTML" />
+            <element signature="e#17731#18987#0#HTML" />
+            <element signature="e#29211#29585#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
