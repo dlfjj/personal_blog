@@ -249,6 +249,18 @@
                                 <div class="progress-bar-container">
 
                                     <div class="progress">
+                                        <div class="progress-bar" data-width="75">
+                                            <span>75%</span>
+                                        </div><!-- progress-bar -->
+                                    </div><!-- progress -->
+
+                                    <div class="progress-bar-title">Java</div>
+
+                                </div><!-- progress-bar-container -->
+
+                                <div class="progress-bar-container">
+
+                                    <div class="progress">
                                         <div class="progress-bar" data-width="85">
                                             <span>85%</span>
                                         </div><!-- progress-bar -->
@@ -511,7 +523,7 @@
 
                                 <p class="collapse" id="collapse1-1" data-parent="#accordion1">
                                     I graduated from Baylor University with a BBA in management of information system. The school taught me the fundamental knowledge of business and technology.
-                                    I learnt to manage database with SQL Server, made my own game with JAVA, and created POS system with my teammates.
+                                    I learnt to manage database with SQL Server, made my own game with JAVA, and created POS system with my teammates. In the meantime, I gaped one semester of my sophomore year to market my own social network application in China.
                                 </p>
 
                             </div><!-- education-item -->
@@ -543,8 +555,8 @@
 
                                             <div class="portfolio-item-description">
 
-                                                <h5><a href="#">Design project</a></h5>
-                                                <p>Branding</p>
+                                                <h5><a href="#">American Dunnage Website</a></h5>
+                                                <p>Created entire website from scratch</p>
 
                                             </div><!-- portfolio-item-description -->
 
@@ -573,8 +585,8 @@
 
                                             <div class="portfolio-item-description">
 
-                                                <h5><a href="#">Design project</a></h5>
-                                                <p>Branding</p>
+                                                <h5><a href="#">ERP System</a></h5>
+                                                <p>Continue developing ERP system for sale</p>
 
                                             </div><!-- portfolio-item-description -->
 
@@ -597,14 +609,14 @@
 
                                     <div class="portfolio-item-thumbnail">
 
-                                        <img src="{{asset('images/portfolio/Prototype.jpg')}}" alt="">
+                                        <img src="{{asset('images/portfolio/Prototype1.jpg')}}" alt="">
 
                                         <div class="portfolio-item-hover">
 
                                             <div class="portfolio-item-description">
 
-                                                <h5><a href="#">Design project</a></h5>
-                                                <p>Branding</p>
+                                                <h5><a href="#">Social Network App</a></h5>
+                                                <p>Copying Yik Yak concept to Chinese Market</p>
 
                                             </div><!-- portfolio-item-description -->
 
