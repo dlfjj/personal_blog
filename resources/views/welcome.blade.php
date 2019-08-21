@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>DLFJJ</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
         <!-- Styles -->
         <style>
             html, body {
@@ -80,17 +80,32 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    JIAJIE FAN
+                {{--<div class="title m-b-md">--}}
+                    {{--JIAJIE FAN--}}
+                {{--</div>--}}
+
+                <div id="typed-strings">
+                    <p>MY SPACE</p>
+                    {{--<p>It <em>types</em> out sentences.</p>--}}
                 </div>
+                <span id="typed" class="title m-b-md"></span>
 
                 <div class="links">
                     <a href="/resume">Resume</a>
-                    <a href="https://blog.laravel.com" disabled="">Blog</a>
+                    {{--<a href="https://blog.laravel.com" disabled="">Blog</a>--}}
                     <a href="https://www.linkedin.com/in/jjfan69">Linkedin</a>
                     <a href="https://github.com/dlfjj">GitHub</a>
                 </div>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+        <script>
+            let typed = new Typed('#typed', {
+                strings: [
+                    "JIAJIE FAN"
+                ],
+                typeSpeed: 80
+            });
+        </script>
     </body>
 </html>

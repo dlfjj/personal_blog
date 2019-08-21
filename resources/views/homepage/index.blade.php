@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+<title>DLFJJ</title>
+
+
 @section('content')
 
     <div id="main-container">
