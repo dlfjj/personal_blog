@@ -41,6 +41,7 @@
 
                                 {{--<img src="./images/profile-image.jpg" alt="">--}}
                                 <img src="{{asset('images/profile/jack2.jpg')}}" alt="">
+                                {{--<img src="{{asset('images/profile/profile.jpeg')}}" alt="">--}}
 
                             </div><!-- profile-image -->
                             <div class="personal-details">
@@ -535,8 +536,38 @@
 
                                     <div class="portfolio-item-thumbnail">
 
-                                        <img src="{{asset('images/portfolio/portfolio1.gif')}}" alt="">
+                                        <img src="{{asset('images/portfolio/portfolio1.png')}}" alt="">
 
+
+                                        <div class="portfolio-item-hover">
+
+                                            <div class="portfolio-item-description">
+
+                                                <h5><a href="#">Design project</a></h5>
+                                                <p>Branding</p>
+
+                                            </div><!-- portfolio-item-description -->
+
+                                            <a class="fancybox zoom-action" data-fancybox="portfolio"
+                                               href="{{asset('images/portfolio/portfolio1.gif')}}">
+                                                <i class="business-icon-magnifying-glass"></i>
+                                            </a>
+
+                                        </div><!-- portfolio-item-hover -->
+
+                                    </div><!-- portfolio-item-thumbnail -->
+
+                                </div><!-- portfolio-item -->
+
+                            </div><!-- isotope-item -->
+
+                            <div class="isotope-item categ-3 categ-4">
+
+                                <div class="portfolio-item">
+
+                                    <div class="portfolio-item-thumbnail">
+
+                                        <img src="{{asset('images/portfolio/portfolio2.png')}}" alt="">
 
                                         <div class="portfolio-item-hover">
 
@@ -566,41 +597,7 @@
 
                                     <div class="portfolio-item-thumbnail">
 
-                                        <img src="{{asset('images/portfolio/image-2.jpg')}}" alt="">
-
-                                        <div class="portfolio-item-hover">
-
-                                            <div class="portfolio-item-description">
-
-                                                <h5><a href="#">Design project</a></h5>
-                                                <p>Branding</p>
-
-                                            </div><!-- portfolio-item-description -->
-
-                                            {{--<a class="fancybox zoom-action" data-fancybox="portfolio"--}}
-                                               {{--href="{{asset('images/portfolio/image-2.jpg')}}">--}}
-                                                {{--<i class="business-icon-magnifying-glass"></i>--}}
-                                            {{--</a>--}}
-                                            <div class="ancybox zoom-action embed-responsive embed-responsive-16by9" data-fancybox="portfolio">
-                                                <i class="business-icon-magnifying-glass"></i>
-                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-                                            </div>
-
-                                        </div><!-- portfolio-item-hover -->
-
-                                    </div><!-- portfolio-item-thumbnail -->
-
-                                </div><!-- portfolio-item -->
-
-                            </div><!-- isotope-item -->
-
-                            <div class="isotope-item categ-3 categ-4">
-
-                                <div class="portfolio-item">
-
-                                    <div class="portfolio-item-thumbnail">
-
-                                        <img src="{{asset('images/portfolio/image-2.jpg')}}" alt="">
+                                        <img src="{{asset('images/portfolio/Prototype.jpg')}}" alt="">
 
                                         <div class="portfolio-item-hover">
 
@@ -612,7 +609,7 @@
                                             </div><!-- portfolio-item-description -->
 
                                             <a class="fancybox zoom-action" data-fancybox="portfolio"
-                                               href="{{asset('images/portfolio/image-2.jpg')}}">
+                                               href="{{asset('images/portfolio/Prototype.jpg')}}">
                                                 <i class="business-icon-magnifying-glass"></i>
                                             </a>
 
