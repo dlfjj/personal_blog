@@ -67,15 +67,25 @@
                                     </li>
                                 </ul>
 
-                                <div class="social-media">
+                                {{--<ul>--}}
+                                    {{--<li>--}}
+                                        {{--<a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a class="instagram" href="#"><i class="fab fa-instagram"></i></a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
 
-                                    <a class="pinterest" href="#"><i class="fab fa-pinterest"></i></a>
-                                    <a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
-                                    <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
 
-                                </div><!-- social-media -->
+                                {{--<div class="social-media">--}}
+                                    {{--<a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>--}}
+                                    {{--<a class="instagram" href="https://www.instagram.com/dlfjj/"><i class="fab fa-instagram"></i></a>--}}
+                                    {{--<a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>--}}
+                                    {{--<a class="twitter" href="#"><i class="fab fa-twitter"></i></a>--}}
+                                {{--</div><!-- social-media -->--}}
 
                             </div><!-- personal-details -->
                         </div><!-- personal-info -->
