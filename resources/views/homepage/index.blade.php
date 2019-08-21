@@ -535,7 +535,7 @@
 
                                     <div class="portfolio-item-thumbnail">
 
-                                        <img src="{{asset('images/portfolio/image-1.jpg')}}" alt="">
+                                        <img src="{{asset('images/portfolio/portfolio1.gif')}}" alt="">
 
 
                                         <div class="portfolio-item-hover">
@@ -548,7 +548,7 @@
                                             </div><!-- portfolio-item-description -->
 
                                             <a class="fancybox zoom-action" data-fancybox="portfolio"
-                                               href="{{asset('images/portfolio/image-1.jpg')}}">
+                                               href="{{asset('images/portfolio/portfolio2.gif')}}">
                                                 <i class="business-icon-magnifying-glass"></i>
                                             </a>
 
@@ -577,10 +577,14 @@
 
                                             </div><!-- portfolio-item-description -->
 
-                                            <a class="fancybox zoom-action" data-fancybox="portfolio"
-                                               href="{{asset('images/portfolio/image-2.jpg')}}">
+                                            {{--<a class="fancybox zoom-action" data-fancybox="portfolio"--}}
+                                               {{--href="{{asset('images/portfolio/image-2.jpg')}}">--}}
+                                                {{--<i class="business-icon-magnifying-glass"></i>--}}
+                                            {{--</a>--}}
+                                            <div class="ancybox zoom-action embed-responsive embed-responsive-16by9" data-fancybox="portfolio">
                                                 <i class="business-icon-magnifying-glass"></i>
-                                            </a>
+                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                                            </div>
 
                                         </div><!-- portfolio-item-hover -->
 
