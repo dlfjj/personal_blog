@@ -10,7 +10,7 @@ class FileDownloadController extends Controller
 {
     public function downloadResume(){
         try {
-            return Storage::download('/public/files/jacky_resume.docx');
+            return Storage::download('/public/files/jacky_resume.pdf');
         }
         catch (\Exception $e){
             return redirect()->back()->with('flash_error','PDF File is too old, did not store at the database anymore');
