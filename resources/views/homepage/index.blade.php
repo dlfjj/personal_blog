@@ -373,12 +373,12 @@
                                 <div class="progress-bar-container">
 
                                     <div class="progress">
-                                        <div class="progress-bar" data-width="60">
-                                            <span>60%</span>
+                                        <div class="progress-bar" data-width="90">
+                                            <span>90%</span>
                                         </div><!-- progress-bar -->
                                     </div><!-- progress -->
 
-                                    <div class="progress-bar-title">Apache Hadoop</div>
+                                    <div class="progress-bar-title">Git</div>
 
                                 </div><!-- progress-bar-container -->
 
@@ -390,7 +390,7 @@
                                         </div><!-- progress-bar -->
                                     </div><!-- progress -->
 
-                                    <div class="progress-bar-title">Digital Ocean</div>
+                                    <div class="progress-bar-title">REST API</div>
 
                                 </div><!-- progress-bar-container -->
 

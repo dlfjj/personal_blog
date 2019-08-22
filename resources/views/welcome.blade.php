@@ -19,17 +19,14 @@
                 height: 100vh;
                 margin: 0;
             }
-
             .full-height {
                 height: 100vh;
             }
-
             .flex-center {
                 align-items: center;
                 display: flex;
                 justify-content: center;
             }
-
             .position-ref {
                 position: relative;
             }
@@ -39,7 +36,6 @@
                 right: 10px;
                 top: 18px;
             }
-
             .content {
                 text-align: center;
             }
@@ -62,6 +58,15 @@
                 margin-bottom: 30px;
             }
         </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146200859-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-146200859-1');
+        </script>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -78,7 +83,6 @@
                     @endauth
                 </div>
             @endif
-
             <div class="content">
                 {{--<div class="title m-b-md">--}}
                     {{--JIAJIE FAN--}}
