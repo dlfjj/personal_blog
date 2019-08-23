@@ -96,7 +96,7 @@
 
                 <div class="links">
                     <a href="/resume">Resume</a>
-                    {{--<a href="https://blog.laravel.com" disabled="">Blog</a>--}}
+                    <a href="/blog" disabled="">Blog</a>
                     <a href="https://www.linkedin.com/in/jjfan69">Linkedin</a>
                     <a href="https://github.com/dlfjj">GitHub</a>
                 </div>

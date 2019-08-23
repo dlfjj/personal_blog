@@ -24,6 +24,7 @@
 
     <script src="{{ asset('js/charts/jquery.easypiechart.min.js') }}" defer></script>
 
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146200859-1"></script>
     <script>
@@ -51,8 +52,10 @@
     <link rel="stylesheet" href="{{ asset('css/business-icons/css/business-icons.min.css') }}">
     {{--<link rel="stylesheet" href="{{ asset('js/charts/style.css') }}">--}}
     <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
+    @stack('styles')
 
 
+    @stack('scripts')
 </head>
 <body class="header-style-1 footer-style-1 page-style-1">
 
@@ -60,7 +63,7 @@
             @yield('content')
     {{--</div>--}}
     <a class="waves" id="scroll-up"><i class="fas fa-angle-up"></i></a>
-    <script src="{{ asset('js/custom/main.js') }}" defer></script>
+    {{--<script src="{{ asset('js/custom/main.js') }}" defer></script>--}}
 
 </body>
 </html>
